@@ -49,3 +49,4 @@ func (mongoConn *MongoConnection) CloseMgoSeeion(session *mgo.Session) {
 	}()
 	session.Close()
 }
+
