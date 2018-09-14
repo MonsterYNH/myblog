@@ -1,11 +1,11 @@
 package main
 
 import (
-	_ "myblog/routers"
 	"github.com/astaxie/beego"
+	_ "myblog/models/mongodb"
+	_ "myblog/routers"
 )
 
 func main() {
 	beego.Run()
 }
-
